@@ -46,11 +46,12 @@ nav a.active,
 nav a:hover {
     opacity: 1;
     text-decoration: underline;
+    text-decoration: wavy;
 }
 
 .hero,
 .card {
-    background: #349699;
+    background: #72b3d8;
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, .06);
@@ -76,14 +77,4 @@ nav a:hover {
     padding: 1rem 0;
     color: #7c8585;
     text-align: center;
-}
-
-table, th, td {
-    border:1px solid black;
-    background-color: aliceblue;
-}
-
-td:hover {
-      background-color: rgb(72, 89, 112);
-      color: bisque;
 }

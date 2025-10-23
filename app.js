@@ -22,6 +22,9 @@ app.get("/services", (req, res) => res.render("pages/services", { title: "Servic
 app.get("/blog", (req, res) => res.render("pages/blog", { title: "Blog" }));
 app.get("/contact", (req, res) => res.render("pages/contact", { title: "Contact" }));
 
+app.get("/resources", (req, res) => res.render("pages/resources", { title: "Resources" }));
+app.get("/petition", (req, res) => res.render("pages/petition", { title: "Petition" }));
+app.get("/recycle", (req, res) => res.render("pages/recycle", { title: "Recycle" }));
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
 });
